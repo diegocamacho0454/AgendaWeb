@@ -22,6 +22,7 @@ public class tesDAO {
 		 System.out.println(dao.selectTelefono());
 		 System.out.println(dao.selectVINCULO());
 		
+		 System.out.println("");
 		 
 		 entityContacto.setAPELLIDO("arbelaez");
 		 entityContacto.setNOMBRE("camila");
