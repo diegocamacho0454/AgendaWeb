@@ -13,7 +13,7 @@ public class tesDAO {
 		
 		 BaseDeDatos d=new BaseDeDatos();
 
-		 EntityContacto entityContacto= new EntityContacto("Juan", "Camacho", "3212210978", "vINCULO", "iMAGEN", new Date(), 3);
+		 EntityContacto entityContacto= new EntityContacto("Juan", "Camacho", "3212210973", "vINCULO", "iMAGEN", new Date(), 4);
 		 DAOContacto dao=new DAOContacto(entityContacto, d); 
 		 System.out.println(dao.InsertarContaCTO());
 		 
@@ -27,7 +27,7 @@ public class tesDAO {
 		 entityContacto.setAPELLIDO("arbelaez");
 		 entityContacto.setNOMBRE("camila");
 		 
-		 System.out.println(dao.ModificarContacto());
+		 //System.out.println(dao.ModificarContacto());
 		 
 		 System.out.println(dao.EliminarContacto());
 		 
